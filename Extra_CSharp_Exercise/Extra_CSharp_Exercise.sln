@@ -3,11 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Sort_Numbers", "01_Sort_Numbers\01_Sort_Numbers.csproj", "{52966BFA-CE5D-4888-81B3-6864118EDC85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Sort_Numbers", "01_Sort_Numbers\01_Sort_Numbers.csproj", "{52966BFA-CE5D-4888-81B3-6864118EDC85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_English_Name_Of_The_Last_Digit", "02_English_Name_Of_The_Last_Digit\02_English_Name_Of_The_Last_Digit.csproj", "{723EC351-1114-4913-8CEF-69C9B8DBE968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_English_Name_Of_The_Last_Digit", "02_English_Name_Of_The_Last_Digit\02_English_Name_Of_The_Last_Digit.csproj", "{723EC351-1114-4913-8CEF-69C9B8DBE968}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Gaming_Store", "03_Gaming_Store\03_Gaming_Store.csproj", "{9289811D-A0DF-4CAB-A212-2B46DCC271C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Gaming_Store", "03_Gaming_Store\03_Gaming_Store.csproj", "{9289811D-A0DF-4CAB-A212-2B46DCC271C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messaging", "Messaging\Messaging.csproj", "{6243B053-A49B-4DFB-A2DA-0BE6C9548EAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRace", "CarRace\CarRace.csproj", "{C5E79A46-8D30-4649-96BB-ECF3E54EEC56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptSortAndPrintArray", "EncryptSortAndPrintArray\EncryptSortAndPrintArray.csproj", "{819E0039-70EF-483A-823C-4C0270952A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangle", "PascalTriangle\PascalTriangle.csproj", "{819C4ABE-1BD0-4237-B99A-1FE274F51F1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFibonacci", "RecursiveFibonacci\RecursiveFibonacci.csproj", "{46EB8775-1062-4DB1-8A63-B30FAA6CA367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +37,26 @@ Global
 		{9289811D-A0DF-4CAB-A212-2B46DCC271C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9289811D-A0DF-4CAB-A212-2B46DCC271C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9289811D-A0DF-4CAB-A212-2B46DCC271C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6243B053-A49B-4DFB-A2DA-0BE6C9548EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6243B053-A49B-4DFB-A2DA-0BE6C9548EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6243B053-A49B-4DFB-A2DA-0BE6C9548EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6243B053-A49B-4DFB-A2DA-0BE6C9548EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E79A46-8D30-4649-96BB-ECF3E54EEC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E79A46-8D30-4649-96BB-ECF3E54EEC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E79A46-8D30-4649-96BB-ECF3E54EEC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E79A46-8D30-4649-96BB-ECF3E54EEC56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{819E0039-70EF-483A-823C-4C0270952A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819E0039-70EF-483A-823C-4C0270952A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819E0039-70EF-483A-823C-4C0270952A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819E0039-70EF-483A-823C-4C0270952A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{819C4ABE-1BD0-4237-B99A-1FE274F51F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819C4ABE-1BD0-4237-B99A-1FE274F51F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819C4ABE-1BD0-4237-B99A-1FE274F51F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819C4ABE-1BD0-4237-B99A-1FE274F51F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46EB8775-1062-4DB1-8A63-B30FAA6CA367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46EB8775-1062-4DB1-8A63-B30FAA6CA367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46EB8775-1062-4DB1-8A63-B30FAA6CA367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46EB8775-1062-4DB1-8A63-B30FAA6CA367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
