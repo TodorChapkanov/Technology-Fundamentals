@@ -23,8 +23,8 @@
 
                     if (curentHealth > 100)
                     {
-                        var poition = Math.Abs(curentHealth - 100 - int.Parse(curentRoom[1]));
-                        Console.WriteLine($"You healed for {poition} hp.");
+                        var potion = Math.Abs(curentHealth - 100 - int.Parse(curentRoom[1]));
+                        Console.WriteLine($"You healed for {potion} hp.");
                         Console.WriteLine($"Current health: 100 hp.");
                         curentHealth = 100;
                         continue;
