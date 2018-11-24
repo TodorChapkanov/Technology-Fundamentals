@@ -1,0 +1,38 @@
+﻿@model List<CalculatorApp.Models.Calculator>
+@{
+    ViewData["Title"] = "History";
+}
+
+<h2>History</h2>
+@foreach (var calculator in Model)
+{
+<div class="container" id="History">
+    <div class="form-inline">
+        <div class="col-sm-1">
+            @calculator.LeftNumber
+        </div>
+    </div>
+    <div class="form-inline">
+        <div class="col-sm-1">
+            @calculator.Operator
+        </div>
+    </div>
+    <div class="form-inline">
+        <div class="col-sm-1">
+            @calculator.RightNumber
+        </div>
+    </div>
+    <div class=" form-inline">
+        <div class="col-sm-1">
+            <p>=</p>
+        </div>
+    </div>
+    <div class="form-inline">
+        <div class="col-sm-1">
+            @calculator.Result
+        </div>
+    </div>
+</div>
+    
+    
+}
