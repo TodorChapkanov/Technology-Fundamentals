@@ -23,7 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonDon'tGo", "PokemonDo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnonymousVox", "AnonymousVox\AnonymousVox.csproj", "{2F73BC42-2251-4D07-96CF-C0A21A0E76CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForceBook", "ForceBook\ForceBook.csproj", "{13D1C24A-4B4E-4233-84DD-BF6AC5A7AC1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForceBook", "ForceBook\ForceBook.csproj", "{13D1C24A-4B4E-4233-84DD-BF6AC5A7AC1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ranking", "Ranking\Ranking.csproj", "{63288840-B570-4BDB-BA83-7781BEC52927}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "judge", "judge\judge.csproj", "{25F239D5-BD92-40D6-A9AC-C90490D05F56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobaChallenger", "MobaChallenger\MobaChallenger.csproj", "{B731C74F-CFD8-4ECE-880F-865C11EE9985}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{13D1C24A-4B4E-4233-84DD-BF6AC5A7AC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13D1C24A-4B4E-4233-84DD-BF6AC5A7AC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13D1C24A-4B4E-4233-84DD-BF6AC5A7AC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63288840-B570-4BDB-BA83-7781BEC52927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63288840-B570-4BDB-BA83-7781BEC52927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63288840-B570-4BDB-BA83-7781BEC52927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63288840-B570-4BDB-BA83-7781BEC52927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25F239D5-BD92-40D6-A9AC-C90490D05F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F239D5-BD92-40D6-A9AC-C90490D05F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F239D5-BD92-40D6-A9AC-C90490D05F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F239D5-BD92-40D6-A9AC-C90490D05F56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B731C74F-CFD8-4ECE-880F-865C11EE9985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B731C74F-CFD8-4ECE-880F-865C11EE9985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B731C74F-CFD8-4ECE-880F-865C11EE9985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B731C74F-CFD8-4ECE-880F-865C11EE9985}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
